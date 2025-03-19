@@ -33,11 +33,14 @@ The **Siamese Network** consists of:
 ```bash
 git clone https://github.com/sai-srinivasan-v/SiameseNet
 cd SiameseNet-MNIST
+pip install -r requirements.txt
 ```
-```pip install -r requirements.txt```
 - Using uv
-```uv pip install -r requirements.txt```
-
+```bash
+git clone https://github.com/sai-srinivasan-v/SiameseNet
+cd SiameseNet-MNIST
+uv pip install -r requirements.txt
+```
 ---
 
 ##📊 Results
@@ -45,6 +48,6 @@ The network learns to distinguish between similar and different digits, demonstr
 
 
 ## 📖 References
-Bromley, Jane, et al. "Signature verification using a 'Siamese' time delay neural network."
-LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE (1998).
-['MNIST Dataset'](http://yann.lecun.com/exdb/mnist/)
+- Bromley, Jane, et al. "Signature verification using a 'Siamese' time delay neural network."
+- LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE (1998).
+- ['MNIST Dataset'](http://yann.lecun.com/exdb/mnist/)
